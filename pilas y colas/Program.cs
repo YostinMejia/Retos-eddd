@@ -46,7 +46,7 @@ namespace pilas_y_colas
 
             //Console.WriteLine(cola.combine_values(queue1, queue2));
 
-            Console.WriteLine(cola.E6(queue2, 2));
+            Console.WriteLine(cola.E6(queue2, 30));
             
 
         }

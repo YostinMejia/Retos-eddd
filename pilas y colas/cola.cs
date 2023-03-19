@@ -90,11 +90,17 @@ namespace pilas_y_colas
 
         public bool E6(Queue<int> q, int e)
         {
+
+            //return q.Contains(e);
+
             foreach(int item in q) {
+                Console.WriteLine($"{item} == {e} {item == e}");
                 if (item == e) return true;
             }
 
             return false;
         }
+
+        
     }
 }
