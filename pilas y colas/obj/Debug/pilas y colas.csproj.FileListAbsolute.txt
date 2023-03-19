@@ -6,3 +6,11 @@ C:\Users\yostin\Desktop\tallerEDD\pilas y colas\pilas y colas\obj\Debug\pilas y 
 C:\Users\yostin\Desktop\tallerEDD\pilas y colas\pilas y colas\obj\Debug\pilas y colas.csproj.CoreCompileInputs.cache
 C:\Users\yostin\Desktop\tallerEDD\pilas y colas\pilas y colas\obj\Debug\pilas y colas.exe
 C:\Users\yostin\Desktop\tallerEDD\pilas y colas\pilas y colas\obj\Debug\pilas y colas.pdb
+C:\GitHub\Retos-eddd\pilas y colas\obj\Debug\pilas y colas.csproj.AssemblyReference.cache
+C:\GitHub\Retos-eddd\pilas y colas\obj\Debug\pilas y colas.csproj.SuggestedBindingRedirects.cache
+C:\GitHub\Retos-eddd\pilas y colas\obj\Debug\pilas y colas.csproj.CoreCompileInputs.cache
+C:\GitHub\Retos-eddd\pilas y colas\obj\Debug\pilas y colas.exe
+C:\GitHub\Retos-eddd\pilas y colas\obj\Debug\pilas y colas.pdb
+C:\GitHub\Retos-eddd\pilas y colas\bin\Debug\pilas y colas.exe.config
+C:\GitHub\Retos-eddd\pilas y colas\bin\Debug\pilas y colas.exe
+C:\GitHub\Retos-eddd\pilas y colas\bin\Debug\pilas y colas.pdb

@@ -13,31 +13,38 @@ namespace pilas_y_colas
         static void Main(string[] args)
         {
 
-            /*
+            
             Stack<int> stack = new Stack<int>();
-            for(int i = 10; i>=1; i--)
+            for(int i = 1; i<=10; i++)
             {
                 stack.Push(i);
             }
 
 
-            Pila pila= new Pila();*/
+            Pila pila= new Pila();
+            pila.recorrer_pila(stack);
 
             //pila.invertir_pila(stack);
             //Console.WriteLine(pila.E2(stack));
             //Console.WriteLine(pila.E3("(())"));
 
             
-            Queue<int> queue = new Queue<int>();
+            Queue<int> queue1 = new Queue<int>();
             
-            for (int i = 1; i <= 10; i++)
+            for (int i = 1; i <= 3; i++)
             {
-                queue.Enqueue(i);
+                queue1.Enqueue(i);
+            }
+            Queue<int> queue2 = new Queue<int>();
+
+            for (int i = 10; i <=30; i+=10)
+            {
+                queue2.Enqueue(i);
             }
 
             Cola cola = new Cola();
 
-            cola.invertir_string(queue);
+            Console.WriteLine(cola.combine_values(queue1, queue2));
             
 
         }

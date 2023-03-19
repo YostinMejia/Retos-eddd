@@ -7,7 +7,7 @@ namespace pilas_y_colas
     {
         /* E1 Escriba una función que invierta una pila. Sólo puede usar pilas*/
 
-        private void recorrer_pila(Stack<int> pila_inicial)
+        public void recorrer_pila(Stack<int> pila_inicial)
         {
             foreach (int item in pila_inicial)
             {
