@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,21 +36,7 @@ namespace pilas_y_colas
         }*/
 
 
-      
-        private Stack<int> queue_to_reverse_stack(Queue<int> cola_inicial)
-        {
-            Stack<int> stack = new Stack<int>();
-
-            while (cola_inicial.Count > 0 )
-            {
-                stack.Push(cola_inicial.Dequeue());
-            }
-            Pila pila = new Pila();
-
-            return stack;
-
-        }
-        /* E5. Escriba una función que reciba dos colas q1 y q2 y retorne a q1 con los elementos de q1 y q2 combinados 
+       /* E5. Escriba una función que reciba dos colas q1 y q2 y retorne a q1 con los elementos de q1 y q2 combinados 
        * tal que después de cada elemento de q1 aparece el elemento de q2 en su posición inversa. 
        * Por ejemplo, si q1 es [1,2,3] y q2 es [10,20,30], la función debe retornar a q1 siendo [1,30,2,20,3,10], es decir, 
        * el primero de q1 seguido del último de q2 y así sucesivamente.
@@ -73,6 +60,7 @@ namespace pilas_y_colas
                 q2_eliminado = q2.Dequeue();
                 stack_auxiliar.Push(q1_eliminado);
                 stack_auxiliar.Push(q2_eliminado);
+
                 Console.WriteLine("Elemento q1 eliminado");
                 Console.WriteLine(q1_eliminado);
                 Console.WriteLine("Elemento q2 eliminado");
@@ -96,5 +84,17 @@ namespace pilas_y_colas
             return q1;
         }
 
+        /*E6. Definir una función que reciba una cola q y un elemento e para que retorne True si e está en la cola y False si no. 
+         * Asegurarse de que se mantiene la integridad de la cola, es decir,
+         * que el frente y la cantidad de elementos de la cola se mantenga igual después de esta búsqueda.*/
+
+        public bool E6(Queue<int> q, int e)
+        {
+            foreach(int item in q) {
+                if (item == e) return true;
+            }
+
+            return false;
+        }
     }
 }

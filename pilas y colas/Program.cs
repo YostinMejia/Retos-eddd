@@ -14,15 +14,15 @@ namespace pilas_y_colas
         {
 
             
-            Stack<int> stack = new Stack<int>();
+            /*Stack<int> stack = new Stack<int>();
             for(int i = 1; i<=10; i++)
             {
                 stack.Push(i);
-            }
+            }*/
 
 
-            Pila pila= new Pila();
-            pila.recorrer_pila(stack);
+            //Pila pila= new Pila();
+            //pila.recorrer_pila(stack);
 
             //pila.invertir_pila(stack);
             //Console.WriteLine(pila.E2(stack));
@@ -44,7 +44,9 @@ namespace pilas_y_colas
 
             Cola cola = new Cola();
 
-            Console.WriteLine(cola.combine_values(queue1, queue2));
+            //Console.WriteLine(cola.combine_values(queue1, queue2));
+
+            Console.WriteLine(cola.E6(queue2, 2));
             
 
         }
